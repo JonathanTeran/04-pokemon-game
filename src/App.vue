@@ -1,26 +1,15 @@
 <template>
-  
-
   <PokemonPage/>
-
 </template>
-
 <script>
-
-import PokemonPage from './pages/PokemonPage'
-
-
-
-
-export default {
-  name: 'App',
-  components: {
-
-    PokemonPage
+  import PokemonPage from './pages/PokemonPage'
+  export default {
+    name: 'App',
+    components: {
+      PokemonPage
+    }
   }
-}
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
